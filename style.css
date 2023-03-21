@@ -1,0 +1,63 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: #003399;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#quiz-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+#timer-container {
+  margin-bottom: 20px;
+}
+
+#submit-container {
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #003399;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0066cc;
+}
+
+button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.correct {
+  background-color: green;
+}
+
+.incorrect {
+  background-color: red;
+}
+
+
